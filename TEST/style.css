@@ -1,0 +1,109 @@
+body {
+    font-family: "Poppins", sans-serif;
+  }
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+  }
+  
+  .container_upper {
+    background-image: url("https://landing.zytheme.com/cobuild/assets/images/hero/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    position: sticky;
+  }
+  .container_upper {
+    justify-content: center;
+    align-items: center;
+    padding-top: 20%;
+    color: black;
+  }
+  .content_lower {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+ 
+  }
+  .intro_button {
+    background-color: black;
+  }
+  .lower_content .first_card {
+    padding: 3%;
+  }
+  .upper_services {
+    padding: 5%;
+  }
+  
+  /* services section */
+  .services_section {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: white;
+  }
+  /* feature section */
+  .my_cards1 .card {
+    background-color: rgb(32, 31, 31);
+    color: white;
+  }
+  .features {
+    text-align: center;
+  }
+  .my_cards1 {
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+  }
+  .my_cards {
+    border: 0px;
+  }
+  /* proof section */
+  .proof_section .row {
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+    padding: 5%;
+  }
+  .my_proofs {
+    background-color: black;
+    color: white;
+  }
+  .my_title h3 {
+    color: rgb(255, 225, 0);
+  }
+  .my_cards2 {
+    gap: 0px;
+    border-radius: 0%;
+  }
+  .hover_cards:hover {
+    background-color: rgb(128, 128, 128, 0.3);
+    transition: 0.5sec;
+  }
+ 
+  
+  .icondiv ul {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .icondiv ul li {
+    padding: 10px;
+    list-style: none;
+    margin-right: 20px;
+  }
+  i {
+    color: gray;
+  }
+  .cont-foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
